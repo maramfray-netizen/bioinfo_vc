@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	ERR16657781_1	/home/maram/bioinfo_vc/results/ERR16657781_1_fastqc.zip
+FastQC	all_sections	ERR16657781_2	/home/maram/bioinfo_vc/results/ERR16657781_2_fastqc.zip

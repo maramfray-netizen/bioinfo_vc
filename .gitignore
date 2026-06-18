@@ -1,6 +1,5 @@
 data/
 reference/
-results/
 benchmark/
 logs/
 *.fastq.gz
@@ -15,3 +14,10 @@ logs/
 *.bwt
 *.pac
 *.sa
+
+# Allow the results folder itself, but ignore big files inside it
+results/*
+!results/*.html
+!results/*.zip
+!results/multiqc_data/
+!results/multiqc_data/**
