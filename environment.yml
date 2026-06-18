@@ -1,0 +1,14 @@
+name: variant-calling
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - fastqc
+  - multiqc
+  - trimmomatic
+  - bwa
+  - samtools
+  - bcftools
+  - gatk4

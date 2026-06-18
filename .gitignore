@@ -1,0 +1,17 @@
+data/
+reference/
+results/
+benchmark/
+logs/
+*.fastq.gz
+*.bam
+*.bai
+*.vcf.gz
+*.fa
+*.fai
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
