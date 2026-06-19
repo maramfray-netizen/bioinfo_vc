@@ -1,0 +1,8 @@
+TrimmomaticPE: Started with arguments:
+ -threads 4 data/ERR16657781_1_fixed.fastq.gz data/ERR16657781_2_fixed.fastq.gz data/ERR16657781_1_trimmed.fastq.gz data/ERR16657781_1_unpaired.fastq.gz data/ERR16657781_2_trimmed.fastq.gz data/ERR16657781_2_unpaired.fastq.gz ILLUMINACLIP:/home/maram/miniconda3/envs/variant-calling/share/trimmomatic-0.40-0/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ILLUMINACLIP: Using adapter file from user-specified absolute path: /home/maram/miniconda3/envs/variant-calling/share/trimmomatic-0.40-0/adapters/TruSeq3-PE.fa
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 15085100 Both Surviving: 14482116 (96.00%) Forward Only Surviving: 383854 (2.54%) Reverse Only Surviving: 116840 (0.77%) Dropped: 102290 (0.68%)
+TrimmomaticPE: Completed successfully

@@ -1,7 +1,6 @@
 data/
 reference/
 benchmark/
-logs/
 *.fastq.gz
 *.bam
 *.bai
@@ -15,7 +14,11 @@ logs/
 *.pac
 *.sa
 
-# Allow the results folder itself, but ignore big files inside it
+# Logs - keep small text logs for documentation, ignore folder otherwise
+logs/*
+!logs/*.log
+
+# Results - keep only small reports, ignore big files inside
 results/*
 !results/*.html
 !results/*.zip
