@@ -1,3 +1,4 @@
+
 # Project Progress Log
 
 ## Sample
@@ -73,8 +74,6 @@
 
 ## Next steps
 - Write final report (methods, metrics, interpretation, limitations)
-- Discuss with supervisor whether to re-approach with genuinely chr21-targeted reads for a
-  stronger benchmark number
 
 ## Data files (not stored in this repo — too large for GitHub)
 Reproduce by running scripts in scripts/bash/01 through scripts/bash/12 in order.
