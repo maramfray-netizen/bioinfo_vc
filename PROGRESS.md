@@ -77,3 +77,34 @@
 
 ## Data files (not stored in this repo — too large for GitHub)
 Reproduce by running scripts in scripts/bash/01 through scripts/bash/12 in order.
+
+---
+
+## Update — August 19, 2026 — Corrected Pipeline (Issue #1)
+
+### Previous analysis superseded
+The initial analysis aligned WGS reads directly against a chromosome 21 only reference.
+This approach was identified as methodologically invalid because reads originating elsewhere
+in the genome could align spuriously to chromosome 21. All variant calling and benchmarking
+results from the original chromosome-only alignment are considered superseded.
+
+### Dataset verification
+- Sample: HG001 / NA12878
+- Accession: ERR16657781
+- Sequencing strategy: Whole genome sequencing (WGS), Illumina paired-end
+- Paired end: Yes
+- Number of reads: 572,604,902 total (286,302,451 pairs)
+- Total sequenced bases: 86,142,492,375
+- Approximate genome coverage: ~27.8x (86,142,492,375 / 3,100,000,000)
+- Reference genome: GCA_000001405.15 GRCh38 no-alt analysis set
+- File integrity: Both FASTQ files passed gzip -t check
+- MD5 verified:
+  - ERR16657781_1.fastq.gz: 6bf5db33c8c5b30f8f50f5d15f8ae583 PASS
+  - ERR16657781_2.fastq.gz: dc81d0e26a6b43f22dada5e6105135ab PASS
+
+### BQSR decision
+Base Quality Score Recalibration (BQSR) will not be performed in this training run.
+Reason: BQSR requires known variant sites (e.g. dbSNP) which add significant
+complexity and download size beyond the scope of this training project.
+Hard filtering will be used instead, which is appropriate for training purposes.
+This decision is documented explicitly as required.
